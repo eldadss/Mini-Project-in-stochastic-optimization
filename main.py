@@ -409,7 +409,6 @@ if __name__ == "__main__":
         print(f"Reading data from Sheet: {sheet_name}")
         weighted_points_map = run(points)
         squared_weighted_points_map = run(points, squared=True)
-        # write_output(original_points,weighted_points_map, squared_weighted_points_map,sheet_name)
     total_time_minutes = (time.time() - strart_time) / 60
 
     print(f"Total time: {total_time_minutes:.3f} minutes.")
